@@ -9,6 +9,8 @@ public class PersonScript : MonoBehaviour
     float directionTime;
     public float minTime,maxTime;
     float speed = 2;
+    enum PersonState{Wander,Flee,Build,Chat}
+    PersonState currentState;
     // Start is called before the first frame update
     void Start()
     {
