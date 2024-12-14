@@ -48,18 +48,12 @@ public class BuildingScript : MonoBehaviour
     }
     private void UpdateState()
     {
-        switch (_currentState)
-        {
-        }
+
     }
     private void EndState(BuildingState oldState)
     {
     //Stop anything that might have been looping,
-    //clean up loose ends from whatever state needs it
-        switch (oldState)
-        {
-        
-        }
+
     }
 
     // Update is called once per frame

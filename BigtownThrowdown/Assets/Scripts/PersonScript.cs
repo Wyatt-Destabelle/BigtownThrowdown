@@ -73,12 +73,7 @@ public class PersonScript : MonoBehaviour
     }
     private void EndState(PersonState oldState)
     {
-    //Stop anything that might have been looping,
-    //clean up loose ends from whatever state needs it
-        switch (oldState)
-        {
-        
-        }
+
     }
     void Update()
     {
